@@ -3,7 +3,7 @@
 
 This Book Store Inventory Management App is a complete solution for managing book inventory, built using modern web technologies. The app allows users to buy, sell, and manage books efficiently while providing an admin dashboard for deeper insights and control. It features seamless user authentication through Google sign-in, powered by Firebase, and robust inventory management capabilities utilizing MongoDB, Express.js, and Node.js.
 
-Key Features
+## Key Features
 
 User Authentication
 Google sign-in is enabled via Firebase for secure and easy access.
@@ -29,28 +29,28 @@ Authentication: Firebase Authentication
 Database: MongoDB
 Getting Started
 
-Clone the Repository:
+## Clone the Repository:
 Bash
 git clone https://github.com/your-username/book-store-inventory-app.git
 Use code with caution.
 
-Install Dependencies:
+## Install Dependencies:
 Bash
 npm install
 Use code with caution.
 
-Set Up Environment Variables: Create a .env file and add your Firebase and MongoDB configuration details.
+### Set Up Environment Variables: Create a .env file and add your Firebase and MongoDB configuration details.
 Start the Backend Server:
 Bash
 npm start
 Use code with caution.
 
-Start the Frontend Development Server:
+## Start the Frontend Development Server:
 Bash
 npm run dev
 Use code with caution.
 
-Usage
+## Usage
 
 User Registration/Login: Users can sign in using their Google account via Firebase.
 Book Browsing and Search: Browse the book inventory and search for specific books using the search bar. Apply filters to refine search results based on genre, price range, or availability.
@@ -61,7 +61,7 @@ Contributing
 
 We welcome contributions to enhance the features and functionality of this project! Refer to the CONTRIBUTING.md file for detailed instructions.
 
-Additional Notes
+### Additional Notes
 
 Follow the project's coding conventions and style guidelines.
 Ensure your code is well-structured, readable, and efficient.
