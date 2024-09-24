@@ -1,70 +1,115 @@
-# Book Store Inventory Management App
-Description
+<a id="readme-top"></a>
+<!--
+*** Thanks for checking out the Book Store Inventory Management App README. If you have suggestions
+*** to improve this, please fork the repo and create a pull request, or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now let's build something amazing! 🚀
+-->
 
-This Book Store Inventory Management App is a complete solution for managing book inventory, built using modern web technologies. The app allows users to buy, sell, and manage books efficiently while providing an admin dashboard for deeper insights and control. It features seamless user authentication through Google sign-in, powered by Firebase, and robust inventory management capabilities utilizing MongoDB, Express.js, and Node.js.
 
-Key Features
 
-User Authentication
-Google sign-in is enabled via Firebase for secure and easy access.
-Book Inventory Management
-Add, Edit, and Delete Books: Easily manage the book catalog.
-Track Stock: Monitor the availability of books and update stock levels.
-Book Categorization: Organize books by genre, author, or any custom criteria.
-Book Sales
-Sales Processing: Efficiently process book sales and generate detailed invoices.
-Sales Analytics: Track sales data to help with inventory decisions and business performance.
-Admin Dashboard
-User Management: Manage user roles and permissions.
-Sales Insights: View and analyze sales data for improved decision-making.
-Inventory Monitoring: Keep track of inventory levels and automate restock alerts.
-Search and Filtering
-Efficient Search: Search books by title, author, ISBN, or keywords.
-Advanced Filtering: Filter books by genre, price, availability, etc.
-Technologies Used
+<!-- PROJECT SHIELDS -->
+<!--
+*** Markdown "reference style" links for readability.
+*** Links are declared at the bottom for easy updates.
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-Frontend: React, Vite, [Component Libraries (e.g., Material UI, Tailwind CSS)]
-Backend: Node.js, Express.js, MongoDB
-Authentication: Firebase Authentication
-Database: MongoDB
-Getting Started
 
-Clone the Repository:
-Bash
-git clone https://github.com/your-username/book-store-inventory-app.git
-Use code with caution.
 
-Install Dependencies:
-Bash
-npm install
-Use code with caution.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/marktevin/book-store-inventory-app">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-Set Up Environment Variables: Create a .env file and add your Firebase and MongoDB configuration details.
-Start the Backend Server:
-Bash
-npm start
-Use code with caution.
+<h3 align="center">Book Store Inventory Management App</h3>
 
-Start the Frontend Development Server:
-Bash
-npm run dev
-Use code with caution.
+  <p align="center">
+    A full-stack inventory management app for bookstores with real-time stock updates, order management, and reporting.
+    <br />
+    <a href="https://github.com/marktevin/book-store-inventory-app"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/marktevin/book-store-inventory-app">View Demo</a>
+    ·
+    <a href="https://github.com/marktevin/book-store-inventory-app/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    ·
+    <a href="https://github.com/marktevin/book-store-inventory-app/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+  </p>
+</div>
 
-Usage
 
-User Registration/Login: Users can sign in using their Google account via Firebase.
-Book Browsing and Search: Browse the book inventory and search for specific books using the search bar. Apply filters to refine search results based on genre, price range, or availability.
-Book Details: View detailed information about books, including title, author, price, and stock availability.
-Purchasing Books: Add books to the cart and proceed to checkout for purchasing. Use a secure payment gateway to complete the purchase.
-Admin Dashboard: Admins can manage user accounts, view sales data, and monitor inventory levels.
-Contributing
 
-We welcome contributions to enhance the features and functionality of this project! Refer to the CONTRIBUTING.md file for detailed instructions.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-Additional Notes
 
-Follow the project's coding conventions and style guidelines.
-Ensure your code is well-structured, readable, and efficient.
-Write tests to verify the correctness of your changes.
-Document any new features or changes to existing code.
-Maintain a respectful and inclusive environment when collaborating.
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+The **Book Store Inventory Management App** is designed to help bookstores efficiently manage their inventory with features such as:
+* Real-time stock updates
+* Order management and tracking
+* Inventory editing and control
+* Analytics and reporting
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+### Built With
+
+* [![Next][Next.js]][Next-url]
+* [![React][React.js]][React-url]
+* [![Node][Node.js]][Node-url]
+* [![Redux][Redux-url]][Redux-url]
+* [![Prisma][Prisma-url]][Prisma-url]
+* [![AWS][AWS-url]][AWS-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+* npm
+  ```sh
+  npm install npm@latest -g
