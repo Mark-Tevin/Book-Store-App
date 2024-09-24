@@ -17,7 +17,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/marktevin/book-store-inventory-app">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="assets/profile.jpg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Book Store Inventory Management App</h3>
