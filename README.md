@@ -3,7 +3,7 @@
 
 This Book Store Inventory Management App is a complete solution for managing book inventory, built using modern web technologies. The app allows users to buy, sell, and manage books efficiently while providing an admin dashboard for deeper insights and control. It features seamless user authentication through Google sign-in, powered by Firebase, and robust inventory management capabilities utilizing MongoDB, Express.js, and Node.js.
 
-![App Screenshot](https://imgur.com/a/dCR3YNu)
+![App Screenshot](mern-client/src/assets/GithubProfile.JPG)
 
 
 ## Key Features
